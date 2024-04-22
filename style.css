@@ -1,0 +1,909 @@
+@font-face {
+    font-family: SCDream1;
+    src: url(Fonts/SCDream1.otf);
+}
+
+@font-face {
+    font-family: SCDream2;
+    src: url(Fonts/SCDream2.otf);
+}
+
+@font-face {
+    font-family: SCDream5;
+    src: url(Fonts/SCDream5.otf);
+}
+
+@font-face {
+    font-family: SCDream8;
+    src: url(Fonts/SCDream8.otf);
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(Fonts/Jost-VariableFont_wght.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.top-nav-li li a:hover {
+    color: #fbae42;
+}
+
+.bottom-nav-li li a:hover {
+    color: #fbae42;
+}
+
+.logo {
+    padding-left: 6%;
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.logo1 {
+    width: 25%;
+}
+
+.logo2 {
+    width: 20%;
+    
+}
+
+.top-nav-li>li {
+    color: white;
+    list-style-type: none;
+}
+
+
+.top-nav-li {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 1px;
+    gap: 12px;
+}
+
+.top-nav-li>button {
+    margin: 4px;
+}
+
+.top-nav-li {
+    font-family: 'Jost';
+    font-size: .7vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.border-button {
+    height: 30px;
+    width: 12%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+    color: white;
+    border: 1px solid #fbae42;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SCDream2';
+    font-size: .7vw;
+    letter-spacing: 1px;
+}
+
+.filled-button {
+    height: 30px;
+    width: 12%;
+    border-radius: 10px;
+    background-color: #fbae42;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SCDream5';
+    font-size: .7vw;
+    letter-spacing: 1px;
+}
+
+.bottom-nav {
+    background-color: #191919;
+    border-top: 1px solid #fbae42;
+    border-bottom: 1px solid #fbae42;
+}
+
+.bottom-nav-li {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    padding: 0.6%;
+    font-family: 'Jost';
+    font-size: .8vw;
+    gap: 30px;
+}
+
+
+.left-container>button {
+    margin: .3%;
+    padding: 0.5%;
+    width: 100%;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    letter-spacing: 2px;
+}
+
+.grdnt-btn {
+    color: white;
+    background: rgb(196, 103, 11);
+    background: linear-gradient(180deg, rgba(196, 103, 11, 1) 0%, rgba(56, 29, 1, 1) 50%, rgba(23, 14, 4, 0.8) 100%);
+    border: none;
+    font-family: 'Jost';
+    font-size: .6vw;
+
+}
+
+.bnw-btn:hover {
+    background: linear-gradient(180deg, rgba(196, 103, 11, 1) 0%, rgba(56, 29, 1, 1) 50%, rgba(23, 14, 4, 0.8) 100%);
+}
+
+.bnw-btn-2:hover {
+    background: linear-gradient(180deg, rgba(196, 103, 11, 1) 0%, rgba(56, 29, 1, 1) 50%, rgba(23, 14, 4, 0.8) 100%);
+}
+
+.bnw-btn {
+    color: white;
+    background: rgb(82, 80, 79);
+    background: linear-gradient(180deg, rgba(82, 80, 79, 1) 0%, rgba(30, 28, 27, 1) 50%, rgba(82, 80, 79, 1) 100%);
+    border: none;
+    font-family: 'Jost';
+    font-size: .6vw;
+ 
+}
+
+.bnw-btn-2 {
+    color: white;
+    background: rgb(63, 62, 61);
+    background: linear-gradient(180deg, rgba(63, 62, 61, 1) 0%, rgba(30, 28, 27, 1) 50%, rgba(63, 62, 61, 1) 100%);
+    border: none;
+    font-family: 'Jost';
+    font-size: .6vw;
+}
+
+
+.main-container {
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.left-banner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left-banner>video {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.left-minislot-banner {
+    width: 100%;
+    display: flex;
+}
+
+video {
+    width: 100%;
+}
+
+
+.search_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.search-icon {
+    width: 5%;
+    margin: 1%;
+    padding: 0.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__field {
+    display: flex;
+    width: 90%;
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #383838;
+}
+
+.sports-menu {
+    width: 100%;
+    gap: 1px;
+    padding-top: 6px;
+}
+
+.btn-container>img {
+    width: 7%;
+}
+
+.nba {
+    width: 4% !important;
+}
+
+.sports-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    background: rgb(38, 38, 38);
+    background: linear-gradient(180deg, rgba(38, 38, 38, 1) 0%, rgba(32, 32, 32, 1) 100%);
+}
+
+.sports-btn:hover {
+    background: #000000;
+}
+
+.flag-btn:hover {
+    color: #fbae42;
+    background: #000000;
+}
+
+.flag-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #151515;
+    padding: 0px 25px;
+}
+
+.flag-btn-dropdwn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    padding: 0px 40px;
+    font-family: 'Jost';
+}
+
+.count {
+    color: #fbae42;
+    font-family: 'Jost';
+    font-size: .6vw;
+}
+
+.count-light {
+    color: white;
+    font-family: 'Jost';
+    font-size: .6vw;
+}
+
+.sports-name {
+    color: #fbae42;
+    padding-left: 8px;
+    font-family: 'Jost';
+    font-size: .7vw;
+}
+
+.country-name {
+    padding-left: 8px;
+    color: #f1f1f1;
+    font-family: 'Jost';
+    font-size: .6vw;
+}
+
+.btn-container {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.center-container {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+    flex-direction: column;
+}
+
+.banner-container {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.announcement-container {
+    display: flex;
+    height: auto;
+    gap: 6px;
+}
+
+.notice-headline {
+    padding: 5px 25px;
+    background: rgb(239, 148, 65);
+    background: linear-gradient(180deg, rgba(239, 148, 65, 1) 0%, rgba(103, 45, 20, 1) 50%, rgba(135, 71, 31, 1) 100%);
+}
+
+.event-icon {
+    height: 3%;
+    width: 3%;
+}
+
+.rule-icon {
+    height: 4%;
+    width: 4%;
+}
+
+.notice-icon {
+    height: 4%;
+    width: 4%;
+    ;
+}
+
+h5 {
+    color: white;
+    font-family: 'SCDream3';
+    font-size: .9vw;
+}
+
+p {
+    color: white;
+    font-family: 'Jost';
+    font-size: .7vw;
+}
+
+
+.notice-content {
+    background-color: #171717;
+    padding: 10px 40px;
+    border-top: 1px solid #262626;
+}
+
+.game-banner {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.game-banner>video {
+    width: 20%;
+}
+
+#left {
+    width: 16.5%;
+    padding-right: 0.5%;
+    padding-top: 0.3%;
+}
+
+#right {
+    width: 16.5%;
+    padding-left: 0.5%;
+    padding-top: 0.3%;
+}
+
+#center {
+    width: 67%;
+    padding-top: 0.3%;
+}
+
+.highlight {
+    color: #fbae42;
+    padding: 6px;
+}
+
+.img-footer {
+    width: 100%;
+}
+
+.login-container {
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    gap: 15px;
+    color: white;
+    justify-content: center;
+}
+
+.login-btn-container {
+    display: flex;
+    width: 40%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.uname,
+.password {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    margin: 4px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.login-btn {
+    background-color: #fbae42;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    font-family: 'SCDream5';
+    font-size: .6vw;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+/* right */
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+}
+
+.acc-left {
+    width: 30%;
+}
+
+.acc-right {
+    width: 70%;
+}
+
+.account-icon{
+    width: 85%;
+}
+
+.user, .amount, .point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.user-out {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.user {
+    width: 60%;
+    background-color: #272727;
+    padding: 2.5%;
+}
+
+.user > p {
+    color:#0085FE;
+    font-family: 'Jost';
+    font-size: 0.75vw;
+}
+
+.logout > p {
+    font-family: 'Jost';
+    font-size: 0.7vw;
+}
+
+.amount > p {
+    font-family: 'Jost';
+    font-size: 0.7vw;
+}
+
+.point > p {
+    font-family: 'Jost';
+    font-size: 0.7vw;
+}
+
+.user-total {
+    color: #FBAE42;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    width: 40%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.amount {
+    width: 100%;
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B1B1B;
+}
+
+.point {
+    width: 100%;
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B1B1B;
+}
+ 
+.betslip-container {
+    background-color: #272727;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+    margin: 2px
+}
+
+.betslip {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #7e5721;
+    border-radius: 10px;
+}
+
+.betslip-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.betslip-title>img {
+    padding-right: 10px;
+    width: 10%;
+}
+
+
+.betslip-title>p {
+    font-size: 'Jost';
+    font-size: 0.8vw;
+}
+
+.betslip-gage {
+    width: 100%;
+}
+
+.bet>img {
+    width: 20%;
+}
+
+.betslip>p {
+    color: #f1f1f1;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+.bet {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    font-family: 'Jost';
+    font-size: .8vw;
+}
+
+.bet>img {
+    padding-right: 10px;
+    width: 20%;
+}
+
+.bet-amount {
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: center;
+    text-align: end;
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-size: .7vw;
+}
+
+.betting-btn {
+    padding: 2%;
+    margin: 1%;
+    border-radius: 5px;
+    color: white;
+    background-color: #000000;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: .6vw;
+}
+
+.betting-btn:hover {
+    background-color: #fbae42;
+}
+
+.betslip>div {
+    font-family: 'Jost';
+    font-size: .8vw;
+    letter-spacing: 1px;
+}
+
+.details {
+    padding: 8% !important;
+    font-family: 'Jost';
+    font-size: 0.7vw !important;
+}
+
+.betting-box>p, .total  {
+    font-family: 'Jost';
+    font-size: .7vw;
+}
+
+.betting-amount-btn {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.place-bet {
+    background-color: #fbae42;
+    color: #000000;
+    text-align: center;
+    padding: 3%;
+    font-family: 'SCDream8';
+    font-size: .7vw;
+    letter-spacing: 1px;
+}
+
+.cancel {
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    padding: 3%;
+    font-family: 'SCDream5';
+    font-size: .7vw;
+    letter-spacing: 1px;
+}
+
+.betting-amount-btn>button,
+div {
+    width: 100%;
+}
+
+.betting-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.total {
+    color: #ff9000;
+}
+
+.socials {
+    width: auto;
+}
+
+.sports-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner-container-m,
+.menu-container-m,
+.top-nav-m,
+.bottom-nav-m,
+.socials-m {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+
+    #left,
+    #right,
+    .logo2,
+    .top-nav-li,
+    .bottom-nav-li,
+    .announcement-container,
+    .center-container,
+    .game-banner,
+    .img-footer {
+        display: none;
+    }
+
+    .banner-container-m,
+    .menu-container-m,
+    .top-nav-m,
+    .bottom-nav-m,
+    .socials-m {
+        display: flex;
+    }
+
+    .menu-icon-m,
+    .refresh-icon-m {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .top-nav {
+        align-items: center;
+    }
+
+
+    .logo1 {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-nav {
+        border: none;
+    }
+
+    .bottom-nav-m {
+        background-color: #191919;
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .login-m>img {
+        width: 25%;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .join-m>img {
+        width: 18%;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .login-m {
+        background: #191919;
+        color: #ffffff;
+        border: 1px solid #fbae42;
+        border-radius: 12px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SCDream5';
+        font-size: 3vw;
+        letter-spacing: 1vw;
+        width: 50%;
+    }
+
+    .join-m {
+        background: #fbae42;
+        color: #000000;
+        border: 1px solid #fbae42;
+        border-radius: 12px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SCDream5';
+        font-size: 3vw;
+        letter-spacing: 1vw;
+        width: 50%;
+    }
+
+    #center {
+        width: 100%;
+    }
+
+    .center-m {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 35px;
+    }
+
+    .banner-container-m>img {
+        display: flex;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+
+    .menu-btn-container-m {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        gap: 10px;
+    }
+
+    .menu-li-m {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .menu-container-m {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .menu-btn-li-m {
+        width: 100%;
+    }
+
+    .socials-container-m {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socials-m {
+        width: 100%;
+    }
+
+}
